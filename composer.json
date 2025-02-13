@@ -1,0 +1,24 @@
+{
+    "name": "igorp/whoops",
+    "description": "Estudando whoops",
+    "type": "project",
+    "autoload": {
+        "files": [
+            "./helpers/getEnv.php",
+            "./helpers/whoops.php"
+        ],
+        "psr-4": {
+            "Igorp\\Whoops\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Igor Francisco Antunes Paulo",
+            "email": "115815356+DevIgorPaulo@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "filp/whoops": "^2.17",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
